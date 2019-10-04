@@ -5,3 +5,15 @@ body{
     font-family: 'Roboto Slab', serif;
     background-color: rgb(245, 242, 237);
 }
+.navbar{
+    height: 8vh;
+    width: 100vw;
+    position: absolute;
+    margin-top: 0px;
+    background-color: bisque;
+    z-index: 1000;
+}
+.navbarmenu{
+    display: inline-flex;
+    
+}

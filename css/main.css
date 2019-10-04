@@ -1,19 +1,17 @@
 body{
+    height: 1000px;
     margin:0px;
     /* font-family: 'Alegreya Sans', sans-serif; */
     /* font-family: 'Roboto Condensed', sans-serif; */
     font-family: 'Roboto Slab', serif;
     background-color: rgb(245, 242, 237);
 }
-.navbar{
-    height: 8vh;
-    width: 100vw;
-    position: absolute;
-    margin-top: 0px;
-    background-color: bisque;
-    z-index: 1000;
+nav{
+    position: sticky!important;
+    top: 0;
 }
-.navbarmenu{
-    display: inline-flex;
-    
+.navbar{
+    height: 80px;
+    width: 100%;
+    background-color: bisque;
 }
